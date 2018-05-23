@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Hydeaway
+tagline:          'A Jekyll Theme'
+# The description is used in the meta description tag (_includes/head.html).
+# If you want to use it in the sidebar, uncomment its code under the tagline
+# in _includes/sidebar.html
+description:      'A Jekyll theme based on the original Hyde and the refreshed Hydeout.'
+url:              https://jpatrickdevine.github.io/hydeaway
+baseurl:          
+
+author:
+  name:           'John Devine'
+  url:            https://jpatrickdevine.info
+
+paginate:         3
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+github:
+  repo:           https://github.com/jpatrickdevine.info/hydeaway
