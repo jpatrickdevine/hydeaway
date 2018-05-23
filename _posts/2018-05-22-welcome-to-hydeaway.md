@@ -14,7 +14,7 @@ Hydeaway sticks to the simple two-column design of the original Hyde theme, but 
 
 ### New Functionality
 
-Hydeout makes prominent use of the site tagline instead of the site description.
+Hydeaway makes prominent use of the site tagline instead of the site description.
 
 It also includes:
 * A <a href="{{ site.baseurl }}/2018/05/23/site-icon">site icon</a> in the sidebar (on viewports above 825px)
