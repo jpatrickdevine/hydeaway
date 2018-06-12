@@ -48,11 +48,6 @@
     padding-top: -0.5rem;
     a {
       color: #111;
-      &:hover {
-        color: $blue-link;
-        -webkit-transition: 0.35s;
-        transition: 0.35s;
-      }
     }
   }
   .fa-li {
@@ -62,4 +57,27 @@
     transform: rotate(145deg);
     font-size: 1.6rem;
   }
+}
+
+.button {
+  background-color: $blue-link;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.35em 0.89em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    background-color: #3696db;
+  }
+}
+
+.underline {
+  border-bottom: 0.2rem solid $blue-link;
+  padding-bottom: 0.3rem;
 }
